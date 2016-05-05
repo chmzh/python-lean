@@ -18,3 +18,6 @@ class Reverse:
 it = Reverse([1,2,3])
 print(next(it))
 print(next(it))
+
+for c in it:
+    print(c)
