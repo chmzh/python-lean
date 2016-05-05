@@ -21,3 +21,14 @@ print(next(it))
 
 for c in it:
     print(c)
+
+
+
+#====================================================
+
+def reverse(data):
+    for index in range(len(data)-1, -1, -1):
+        yield data[index]
+
+for char in reverse('golf'):
+    print(char)
